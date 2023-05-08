@@ -10,18 +10,24 @@
         
     </head>
     <body>
-     
-      <div class="text1">
-        Answer a few questions to get severity of depression.
-      </div>
-      
-      <br/><br/>
+      <nav class="navbar fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <!-- <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> -->
+            <strong>GC07</strong>
+          </a>
+        </div>
+      </nav>
+      <div class="container questions-form">
+        <div class="text-center mb-5">
+          <h1>Answer a few questions</h1>
+        </div>
       <div class="form">
       <form method="POST" action="/validate" class="form">
         
-        <div class="form-group">
-          <label for="gender"><b>1. Little interest or pleasure in doing things</b></label><br>
-          
+        <div class="form-group card">
+          <label for="gender"><strong>1. Little interest or pleasure in doing things</strong></label>
+          <div class="form-check mt-1">
             <input type="radio" id="op-1" name="option" value="0" style="font-weight: bold">
             <label for="op-1">Not at all</label><br>
             <input type="radio" id="op-2" name="option" value="1" style="font-weight: bold">
@@ -30,11 +36,11 @@
             <label for="op-3">More than half the days</label><br>
             <input type="radio" id="op-4" name="option" value="3" style="font-weight: bold">
             <label for="op-4">Nearly every day</label><br>
-            
+            </div>
         </div>
-        <div class="form-group">
-            <label for="gender"><b>2. Feeling down, depressed, or hopeless</b></label><br>
-            
+        <div class="form-group card">
+            <label for="gender"><strong>2. Feeling down, depressed, or hopeless</strong></label>
+            <div class="form-check mt-1">
               <input type="radio" id="op-1" name="option" value="0" style="font-weight: bold">
               <label for="op-1">Not at all</label><br>
               <input type="radio" id="op-2" name="option" value="1" style="font-weight: bold">
@@ -43,11 +49,11 @@
               <label for="op-3">More than half the days</label><br>
               <input type="radio" id="op-4" name="option" value="3" style="font-weight: bold">
               <label for="op-4">Nearly every day</label><br>
-              
+              </div>
           </div>
-          <div class="form-group">
-            <label for="gender"><b>3. Trouble falling or staying asleep, or sleeping too much</b></label><br>
-            
+          <div class="form-group card">
+            <label for="gender"><strong>3. Trouble falling or staying asleep, or sleeping too much</strong></label>
+            <div class="form-check mt-1">
               <input type="radio" id="op-1" name="option" value="0" style="font-weight: bold">
               <label for="op-1">Not at all</label><br>
               <input type="radio" id="op-2" name="option" value="1" style="font-weight: bold">
@@ -56,11 +62,11 @@
               <label for="op-3">More than half the days</label><br>
               <input type="radio" id="op-4" name="option" value="3" style="font-weight: bold">
               <label for="op-4">Nearly every day</label><br>
-              
+              </div>
           </div>
-          <div class="form-group">
-            <label for="gender"><b>4. Feeling tired or having little energy</b></label><br>
-            
+          <div class="form-group card">
+            <label for="gender"><strong>4. Feeling tired or having little energy</strong></label>
+            <div class="form-check mt-1">
               <input type="radio" id="op-1" name="option" value="0" style="font-weight: bold">
               <label for="op-1">Not at all</label><br>
               <input type="radio" id="op-2" name="option" value="1" style="font-weight: bold">
@@ -69,11 +75,11 @@
               <label for="op-3">More than half the days</label><br>
               <input type="radio" id="op-4" name="option" value="3" style="font-weight: bold">
               <label for="op-4">Nearly every day</label><br>
-              
+              </div>
           </div>
-          <div class="form-group">
-            <label for="gender"><b>5. Poor appetite or overeating</b></label><br>
-            
+          <div class="form-group card">
+            <label for="gender"><strong>5. Poor appetite or overeating</strong></label>
+            <div class="form-check mt-1">
               <input type="radio" id="op-1" name="option" value="0" style="font-weight: bold">
               <label for="op-1">Not at all</label><br>
               <input type="radio" id="op-2" name="option" value="1" style="font-weight: bold">
@@ -82,12 +88,12 @@
               <label for="op-3">More than half the days</label><br>
               <input type="radio" id="op-4" name="option" value="3" style="font-weight: bold">
               <label for="op-4">Nearly every day</label><br>
-              
+              </div>
           </div>
-          <div class="form-group">
-            <label for="gender"><b>6. Feeling bad about yourself or that you are a failure or
-                have let yourself or your family down</b></label><br>
-            
+          <div class="form-group card">
+            <label for="gender"><strong>6. Feeling bad about yourself or that you are a failure or
+                have let yourself or your family down</strong></label>
+            <div class="form-check mt-1">
               <input type="radio" id="op-1" name="option" value="0" style="font-weight: bold">
               <label for="op-1">Not at all</label><br>
               <input type="radio" id="op-2" name="option" value="1" style="font-weight: bold">
@@ -96,12 +102,12 @@
               <label for="op-3">More than half the days</label><br>
               <input type="radio" id="op-4" name="option" value="3" style="font-weight: bold">
               <label for="op-4">Nearly every day</label><br>
-              
+              </div>
           </div>
-          <div class="form-group">
-            <label for="gender"><b>7. Trouble concentrating on things, such as reading the
-                newspaper or watching television</b></label><br>
-            
+          <div class="form-group card">
+            <label for="gender"><strong>7. Trouble concentrating on things, such as reading the
+                newspaper or watching television</strong></label>
+                <div class="form-check mt-1">
               <input type="radio" id="op-1" name="option" value="0" style="font-weight: bold">
               <label for="op-1">Not at all</label><br>
               <input type="radio" id="op-2" name="option" value="1" style="font-weight: bold">
@@ -110,14 +116,14 @@
               <label for="op-3">More than half the days</label><br>
               <input type="radio" id="op-4" name="option" value="3" style="font-weight: bold">
               <label for="op-4">Nearly every day</label><br>
-              
+              </div>
           </div>
-          <div class="form-group">
-            <label for="gender"><b>8. Moving or speaking so slowly that other people could
+          <div class="form-group card">
+            <label for="gender"><strong>8. Moving or speaking so slowly that other people could
                 have noticed. Or the opposite being so figety or
                 restless that you have been moving around a lot more
-                than usual</b></label><br>
-            
+                than usual</strong></label>
+                <div class="form-check mt-1">
               <input type="radio" id="op-1" name="option" value="0" style="font-weight: bold">
               <label for="op-1">Not at all</label><br>
               <input type="radio" id="op-2" name="option" value="1" style="font-weight: bold">
@@ -126,12 +132,12 @@
               <label for="op-3">More than half the days</label><br>
               <input type="radio" id="op-4" name="option" value="3" style="font-weight: bold">
               <label for="op-4">Nearly every day</label><br>
-              
+              </div>
           </div>
-          <div class="form-group">
-            <label for="gender"><b>9. Thoughts that you would be better off dead, or of
-                hurting yourself</b></label><br>
-            
+          <div class="form-group card">
+            <label for="gender"><strong>9. Thoughts that you would be better off dead, or of
+                hurting yourself</strong></label>
+                <div class="form-check mt-1">
               <input type="radio" id="op-1" name="option" value="0" style="font-weight: bold">
               <label for="op-1">Not at all</label><br>
               <input type="radio" id="op-2" name="option" value="1" style="font-weight: bold">
@@ -140,14 +146,14 @@
               <label for="op-3">More than half the days</label><br>
               <input type="radio" id="op-4" name="option" value="3" style="font-weight: bold">
               <label for="op-4">Nearly every day</label><br>
-              
+              </div>
           </div>
-          <div class="form-group">
-            <label for="gender"><b>10. If you checked off any problems, how difficult
+          <div class="form-group card">
+            <label for="gender"><strong>10. If you checked off any problems, how difficult
                 have these problems made it for you to do
                 your work, take care of things at home, or get
-                along with other people?</b></label><br>
-            
+                along with other people?</strong></label>
+                <div class="form-check mt-1">
               <input type="radio" id="op-1" name="option" value="0" style="font-weight: bold">
               <label for="op-1">Not at all</label><br>
               <input type="radio" id="op-2" name="option" value="1" style="font-weight: bold">
@@ -156,17 +162,18 @@
               <label for="op-3">Very difficult</label><br>
               <input type="radio" id="op-4" name="option" value="3" style="font-weight: bold">
               <label for="op-4">Extremely difficult        </label><br>
-              
+              </div>
           </div>
           
-        <div class="d-flex justify-content-center">
-          <button
-            type="submit"
-            class="btn btn-warning"
-            style="color: black; font-weight: bold; width: 130px; height:50px; border-radius:12px; font-size: 21px;">
-            Predict
-          </button>
-        </div>
+          <div class="submit-form mb-5">
+            <button
+              type="submit"
+              class="btn btn-warning"
+              style="color: black; font-weight: bold; border-radius:12px;">
+              Submit
+            </button>
+          </div>
       </form></div>
+      </div>
     </body>
 </html>
