@@ -33,7 +33,9 @@
         <div class="card-body">
           <h5 class="card-title">Heyy there!!!</h5>
           <p class="card-text">It looks like {{prediction}}</p>
+          {% if 'suffering' in prediction %}
           <a href="/predict-severity" class="btn btn-warning" id="button1">Check Severity</a>
+          {% endif %}
         </div>
       </div>
     </div>
